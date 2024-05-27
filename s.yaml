@@ -7,7 +7,7 @@ services:
     component: oss
     props:
       bucket: notionnext
-      codeUri: ./public
+      codeUri: ./out
       region: cn-shenzhen
       acl: public-read # 读写权限
       subDir: /
